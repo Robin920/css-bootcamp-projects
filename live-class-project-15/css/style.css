@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato','Anton', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(12, 12, 12);
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding: 2rem;
+    align-items: center;
+}
+nav img {
+    height: 4rem;
+}
+.arrow {
+    height: .7rem;
+}
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-right: 3rem;
+}
+.list-item {
+    font-weight: 700;
+}
+
+.hero-top {
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    padding: 4rem;
+    padding-bottom: .1rem;
+}
+.left-hero-top {
+    height: 35rem;
+    margin-top: -8rem;
+    float: left;
+    margin-left: 8rem;
+}
+.right-hero-top {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.right-hero-top h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+.right-hero-top h3 {
+    color: red;
+}
+.red-btn {
+    border: none;
+    background-color: red;
+    padding: 1.2rem;
+    font-weight: 700;
+    width: 10rem;
+}
+
+.mid-hero {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 2.6rem;
+}
+.mid-hero-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    pad: 1rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 17rem;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 0px 2px 3px rgb(24, 24, 24);
+    background-color: rgb(19, 17, 17);
+}
+.card-txt {
+    color: rgb(255, 226, 226);
+}
+.card h2 {
+    font-weight: 700;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+}
+.icon {
+    height: 5rem;
+}
+.red-txt {
+    color: red;
+    margin-top: .5rem;
+}
+.red-txt img {
+    height: 1.5rem;
+    position: relative;
+    top: .5rem;
+    left: .5rem;
+}
+.red {
+    background-color: red;
+    color: white;
+}
+
+.mid-hero-bottom {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 2.8rem;
+}
+.mid-hero-bottom-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid-hero-bottom-txt h1 {
+    font-size: 5rem;
+    color: red;
+    font-family: 'Anton';
+}
+.mid-hero-bottom-txt p {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.2rem;
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    background-color: rgb(19, 17, 17);
+    width: 18rem;
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+.grid-item h1 {
+    font-family: 'Anton';
+    color: red;
+    font-size: 2.3rem;
+}
+.grid-item p {
+    font-weight: 900;
+}
+
+.lower-hero {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 2.3rem;
+    justify-content: center;
+    align-items: center;
+}
+.lower-hero-txt {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+}
+.lower-hero-txt-left h1 {
+    font-family: 'Anton';
+    margin-right: 27rem;
+}
+.lower-hero-txt-left p {
+    color: rgb(242, 242, 242);
+}
+
+.lower-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.lower-grid-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lower-grid-item {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    width: 25rem;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+}
+.lower-grid-item h2 {
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+.lower-grid-item-txt {
+    color: red;
+    font-size: .8rem;
+    align-self: flex-start;
+}
+.lower-grid-item-txt > img {
+    height: 1rem;
+    width: 1.5rem;
+    margin-left: .5rem;
+    position: relative;
+    top: .2rem;
+}
+.proj-img {
+    height: 12rem;
+    width: 20rem;
+    margin-left: 1rem
+}
+.proj-img-bgc {
+    background-color: rgb(37, 36, 36);
+    width: 25rem;
+    height: 30rem;
+    padding: 1.5rem;
+}
+
+.lower-hero-foot {
+    margin: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: rgb(19, 17, 17);
+    padding: 2rem 8rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.lower-hero-foot-left h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+.lower-hero-foot-left p {
+    color: rgb(242, 242, 242);
+}
+.lower-hero-foot-left {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+.foot {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+}
+
+.foot-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    color: rgb(242, 242, 242);
+    font-size: .8rem;
+    margin-top: 3rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(19, 17, 17);
+    padding: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    justify-content: flex-start;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 36rem;
+}
+.socials img {
+    height: 1.5rem;
+    margin-right: 2rem;
+    align-self: center;
+}
+
+@media (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .list {
+        display: none;
+    }
+    .hero-top {
+        flex-direction: column;
+    }
+    .left-hero-top {
+        height: 30rem;
+        margin-top: -8rem;
+        float: left;
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+    }
+    .mid-hero-top {
+        flex-direction: column;
+    }
+    .mid-hero-bottom {
+        flex-direction: column;
+    }
+    .lower-hero-txt {
+        flex-direction: column;
+    }
+    .lower-hero-txt-left h1 {
+        margin-right: 0rem;
+    }
+    .lower-grid {
+        grid-template-columns: auto;
+    }
+    .socials {
+        margin-left: 8rem;
+    }
+}
