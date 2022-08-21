@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+body {
+    background-image: url("../assets/spacejoy-9M66C_w_ToM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5rem;
+    color: white;
+}
+nav h2 {
+    align-self: flex-start;
+    font-size: 3rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    font-size: 1.3rem;
+}
+.item {
+    font-weight: 700;
+}
+.contact {
+    font-size: 1.3rem;
+    margin-top: -20px;
+}
+.phone {
+    height: 40px;
+    position: relative;
+    right: 30px;
+    top: 30px;
+}
+.phone-txt {
+    margin-top: -20px;
+    font-weight: 700;
+}
+.line {
+    height: 20px;
+    background: linear-gradient(
+    to bottom,
+    transparent 2px,
+    white 2px,
+    white 3px,
+    transparent 3px
+  );
+    width: 68rem;
+    margin-left: auto;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+.left-part {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.left-part h3 {
+    margin-top: 3rem;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-left: 1.7rem;
+}
+.learn {
+    border: 5px solid white;
+    border-radius: 50px;
+    width: 13rem;
+    height: 4rem;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.right-part {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    background-color: rgba(255, 238, 113, 0.555);
+    padding: 1.6rem;
+}
+.card > div {
+    width: 4.4rem;
+    background-color: white;
+    border-radius: 1.3rem;
+    padding: 3px;
+}
+.icon {
+    height: 30px;
+    margin-left: 12px;
+}
+.down {
+    position: relative;
+    top: .1rem;
+    right: 26rem;
+}
+.card-txt {
+    font-size: 1.2rem;
+    text-shadow: 0 0 3px grey;
+}
+.lines-icon {
+    display: flex;
+    flex-direction: column;
+}
+.line-icon {
+    height: 80px;
+}
+.dot-icon {
+    height: 40px;
+    margin-top: -12px;
+    margin-left: 6px;
+}
+
+@media (max-width: 768px) {
+    .nav-items {
+        display: none;
+    }
+    .line {
+        width: 10rem;
+    }
+    .hero-section {
+        flex-direction: column;
+    }
+    .right-part {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .down {
+        right: 0;
+        top: 0;
+    }
+    .card {
+        margin-top: 1.5rem;
+    }
+}
