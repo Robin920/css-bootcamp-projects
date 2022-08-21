@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+}
+
+nav {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey;
+}
+.list-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.4rem;
+    margin-left: 30rem;
+}
+.list-items li {
+    color: rgb(210, 210, 210);
+}
+.item {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.register {
+    border: 2px  solid rgb(210, 210, 210);
+    background: transparent;
+    border-radius: 8px;
+    width: 9rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(210, 210, 210);
+}
+.top-hero-img {
+    height: 27rem;
+    width: 22rem;
+    margin-left: 3rem;
+    border-radius: .3rem;
+}
+.top-hero {
+    display: flex;
+    background-color: grey;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-bottom: 4rem;
+}
+.top-hero-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 7rem;
+}
+.top-hero-right h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+}
+.top-hero-right p {
+    color: rgb(70, 69, 69);
+}
+.email-btn {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 19rem;
+    height: 3.1rem;
+    padding: .9rem;
+    align-items: center;
+    justify-content: center;
+}
+.email-btn img {
+    height: 20px;
+    margin-right: 5px;
+}
+.email-btn input {
+    border: none;
+    background-color: white;
+    width: 10rem;
+}
+.email-btn button {
+    border: none;
+    background-color: rgb(101, 255, 101);
+    color: white;
+    width: 4rem;
+    height: 2.1rem;
+    margin-left: 10px;
+    padding: .2rem;
+}
+
+.mid-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.mid-hero h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.mid-hero h3 span {
+    align-items: flex-start;
+    font-size: 2.3rem;
+}
+.data-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.data-col {
+    display: flex;
+    flex-direction: column;
+}
+.data-col h4 {
+    align-self: center;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.group-img {
+    height: 37rem;
+    width: 70rem;
+}
+.play-icon {
+    height: 6rem;
+    position: relative;
+    bottom: 22rem;
+}
+
+
+.hero-third {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 1rem;
+}
+.third-head {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-left: 32rem;
+}
+.third-head span {
+    margin-left: 1.7rem;
+    font-weight: 700;
+}
+.hero-third img {
+    height: 20rem;
+}
+.hero-third-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hero-third-left h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+.hero-third-left p {
+    font-size: .8rem;
+    color: grey;
+    margin-top: -1rem;
+}
+.green-btn {
+    border: none;
+    background-color: rgb(0, 253, 173);
+    color: white;
+    width: 10rem;
+    height: 2.6rem;
+    margin-left: 10px;
+    padding: .4rem;
+    font-weight: 700;
+}
+.handshake-img {
+    width: 24rem;
+}
+
+.bottom-cont {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.bottom-cont-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.bottom-cont-head h3 {
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+.bottom-cont-head p {
+    color: grey;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: .5rem;
+}
+.card-para {
+    color: grey;
+    font-size: .8rem;
+}
+.card-name {
+    font-weight: 700;
+    color: black;
+}
+.card img {
+    height: 20rem;
+}
+.bottom-cont button {
+    align-self: center;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-between;
+    background-color: rgb(27, 26, 26);
+    color: white;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin-top: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-logo {
+    height: 50px;
+    width: 120px;
+    align-self: flex-start;
+}
+.foot-socials {
+    height: 4rem;
+}
+.foot-list {
+    list-style: none;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.foot-item {
+    color: grey;
+}
+.foot h2 {
+    margin-left: -1.6rem;
+    font-weight: 700;
+    margin-bottom: .4rem;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:768px) {
+    .list-items {
+        display: none;
+    }
+    .top-hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .group-img {
+        height: 20rem;
+        width: 26rem;
+    }
+    .play-icon {
+        height: 3rem;
+        position: relative;
+        bottom: 12rem;
+    }
+    .third-head {
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .third-head span {
+        margin-left: 0rem;
+    }
+    .hero-third {
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-third img {
+        height: 10rem;
+        width: 20rem;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .col {
+        display: none;
+    }
+}
