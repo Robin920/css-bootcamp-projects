@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  background-color: rgb(61, 42, 17);
+  color: white;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 3rem;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+  margin-left: 40rem;
+}
+.list-item {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: grey;
+}
+.active {
+  color: white;
+  font-weight: 700;
+}
+.button-small {
+  border-radius: .5rem;
+  border: 2px solid goldenrod;
+  height: 2.5rem;
+  width: 8rem;
+  color: goldenrod;
+  font-weight: 700;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero-txt {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  padding: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+.hero-heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero-body {
+  font-size: 1.2rem;
+  color: grey;
+  margin-left: 10rem;
+}
+
+.justice-img {
+  height: 40rem;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.button-large-prev {
+  background-color: rgb(83, 48, 2);
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-large-prev > button {
+  border: 2px solid goldenrod;
+  background-color: transparent;
+  color: goldenrod;
+  border-radius: 50%;
+  padding: .2rem;
+  height: 2rem;
+  width: 2rem;
+}
+.button-large-next {
+  background-color: goldenrod;
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-large-next > button {
+  border: 2px solid rgb(83, 48, 2);
+  background-color: transparent;
+  color: rgb(83, 48, 2);
+  border-radius: 50%;
+  padding: .2rem;
+  height: 2rem;
+  width: 2rem;
+}
+
