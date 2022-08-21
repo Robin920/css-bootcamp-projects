@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Allerta','Abel','sans-serif';
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+#logo {
+    height: 35px;
+}
+#navMid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    font-size: 20px;
+    position: relative;
+    right: 180px;
+}
+#mid-item:hover {
+    text-decoration: underline;
+}
+
+#navEnd {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 10px;
+}
+
+#midWhole {
+    display: flex;
+    flex-direction: row;
+}
+#midWholePart1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#midWholePart11 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 40px;
+    line-height: 30px;
+}
+#monstera {
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+#midWholePart121 {
+    background-color: rgb(32, 89, 32);
+    border-radius: 40px;
+    width: 210px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 15px;
+    font-family: 'Abel';
+    font-weight: lighter;
+}
+#midWholePart122 {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+#midWholePart13 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 130px;
+}
+.midWholePart13Parts {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.text {
+    font-size: 10px;
+    color: gray;
+}
+
+#imgMain {
+    height: 672px;
+}
