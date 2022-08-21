@@ -1,0 +1,121 @@
+* {
+    font-family: 'Roboto','sans-sarif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.bg-logo {
+    position: absolute;
+    height: 600px;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+nav img {
+    height: 35px;
+}
+.signin-btn {
+    margin-right: 60px;
+    width: 110px;
+    height: 30px;
+    border: none;
+    border-radius: 40px;
+    background-color: #E899DC;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-items {
+    display: flex;
+    gap: 30px;
+    color: blue;
+}
+.intro-section {
+    display: flex;
+    flex: 0.5;
+}
+.left-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+.left-section h1 {
+    font-size: 60px;
+    color: rgb(52, 52, 249);
+    font-weight: bolder;
+}
+.left-section h4 {
+    margin-top: 50px;
+    color: rgb(177, 177, 177);
+    font-size: 12px;
+}
+
+.learn-more-btn {
+    border: none;
+    border-radius: 30px;
+    height: 35px;
+    width: 120px;
+    background-color: #E899DC;
+    color: white;
+    font-weight: bolder;
+    margin-top: 60px;
+}
+.bg-vector {
+    height: 600px;
+    position: relative;
+    right: -14rem;
+}
+.vector-img {
+    position: relative;
+    left: 20rem;
+    bottom: 2rem;
+}
+.vector-dot {
+    position: relative;
+    left: 16rem;
+    bottom: 8rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-items {
+        display: none;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        margin-top: 2rem;
+    }
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        margin-right: 5rem;
+    }
+    .imgs-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -35rem;
+    }
+    .imgs-div img{
+        width: 10rem;
+        height: 10rem;
+        align-self: center;
+    }
+    .bg-vector {
+        margin-top: -5rem;
+        margin-left: 8rem;
+    }
+}
