@@ -1,0 +1,64 @@
+* {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-item {
+    list-style: none;
+    color: grey;
+}
+.list-item:hover {
+    color: black;
+}
+
+.nav-button {
+    border: none;
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    background-color: rgb(116, 116, 239);
+    color: white;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-text {
+    font-size: 80px;
+    color: rgb(1, 1, 73);
+}
+span {
+    color: rgb(116, 116, 239);
+}
+.description {
+    color: gray;
+}
+#illus {
+    height: 500px;
+    position: relative;
+    right: -70px;
+}
